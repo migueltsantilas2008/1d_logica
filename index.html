@@ -1,0 +1,129 @@
+Como o acesso direto às imagens hospedadas no Google não é uma prática comum devido à forma como o Google Drive lida com os links para imagens, vou fornecer um exemplo utilizando imagens hospedadas em outro lugar.
+
+Aqui está uma versão do código com URLs de exemplo de imagens hospedadas no site `https://via.placeholder.com`:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História dos Irmãos Messi e Neymar</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: #666;
+            text-align: justify;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .container p:first-child {
+            font-style: italic;
+        }
+
+        .container p:nth-child(even) {
+            font-weight: bold;
+        }
+
+        .container p:last-child {
+            color: #cc0000;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+
+        .container img {
+            border: 2px solid #333;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        /* Estilos para imagens */
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-container img {
+            width: 30%;
+            border: 2px solid #333;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>História dos Irmãos Messi e Neymar</h1>
+        <p>Era uma vez, em uma pequena cidade da Argentina, nasceu Lionel Messi, um jovem talentoso com um amor inigualável pelo futebol. Em uma reviravolta do destino, um casal brasileiro, Maria e João, também deu à luz um filho, Neymar, no mesmo dia, em uma cidadezinha no Brasil.</p>
+        <p>Embora separados pela distância, Messi e Neymar compartilhavam uma paixão comum: o futebol. Desde cedo, os dois garotos sonhavam em se tornar os melhores jogadores do mundo.</p>
+        <p class="italic">Messi treinava incansavelmente em campos de terra batida, driblando entre cones improvisados e marcando gols imaginários, enquanto Neymar aprimorava suas habilidades nas ruas movimentadas de sua cidade natal, driblando adversários improvisados e desviando de obstáculos inesperados.</p>
+        <div class="image-container">
+            <img src="https://via.placeholder.com/300" alt="Lionel Messi">
+            <img src="https://via.placeholder.com/300" alt="Neymar 1">
+            <img src="https://via.placeholder.com/300" alt="Neymar 2">
+        </div>
+        <p>À medida que os anos passavam, o talento de Messi e Neymar tornava-se cada vez mais evidente. Ambos foram descobertos por olheiros talentosos e ingressaram em academias de futebol de prestígio, onde desenvolveram suas habilidades e aprimoraram seus talentos naturais.</p>
+        <p class="bold red-text center">Finalmente, o destino os uniu em um dos maiores clubes do mundo, onde formaram uma parceria lendária no campo. Com suas habilidades combinadas, Messi e Neymar conquistaram títulos, quebraram recordes e encantaram fãs em todo o mundo.</p>
+        <p class="large-text margin-top center">E assim, os irmãos Messi e Neymar escreveram sua própria história no mundo do futebol, inspirando gerações futuras com sua paixão, determinação e talento inigualável.</p>
+        <div class="border border-radius box-shadow padding-top">
+            <h2 class="uppercase center">Sobre o Autor</h2>
+            <p class="italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat malesuada odio, ac iaculis purus pulvinar a
+
+. Vestibulum ac enim et magna tempus pellentesque. Nullam consequat diam nec venenatis.</p>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+Lembre-se de substituir `https://via.placeholder.com/300` pelos URLs reais das imagens que você deseja utilizar. Certifique-se de ter a permissão adequada para usar essas imagens e de que elas estejam disponíveis publicamente.
